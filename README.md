@@ -27,7 +27,7 @@ python download_data.py
 
 This script will read the file_manifest.txt, download each file from our Zenodo archive, and place it in the correct location within the project structure. The total download size is approximately 6 GB.
 
-Dataset DOI: [Paste Your Zenodo DOI Here, e.g., 10.5281/zenodo.1234567]
+Dataset DOI: 10.5281/zenodo.17048677
 
 Usage
 Once the data has been downloaded, you can run the analysis notebooks located in the /notebooks directory or execute the main scripts as described below.
