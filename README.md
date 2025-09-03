@@ -8,7 +8,7 @@ This repository contains the code for the paper "Learning the Phenotype of Medic
 
 1.  Clone this repository to your local machine:
     ```bash
-    git clone [https://github.com/The-Blue-Scrubs/CHECK.git](https://github.com/The-Blue-Scrubs/CHECK.git)
+    git clone https://github.com/The-Blue-Scrubs/CHECK.git
     cd CHECK
     ```
 
