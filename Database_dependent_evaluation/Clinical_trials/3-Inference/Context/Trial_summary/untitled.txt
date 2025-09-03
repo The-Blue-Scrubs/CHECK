@@ -1,0 +1,56 @@
+1. Definition:
+The clinical trial titled "Pirfenidone in Focal Segmental Glomerulosclerosis: Phase II Study" aimed to evaluate the efficacy of pirfenidone, an anti-fibrotic agent, in reducing proteinuria and slowing the progression of renal insufficiency in patients with focal segmental glomerulosclerosis (FSGS). citeturn0search0
+
+2. Condition:
+The study focused on FSGS, a kidney disorder characterized by scarring (fibrosis) of the glomeruli, leading to proteinuria (excessive protein in the urine) and potential progression to kidney failure. citeturn0search0
+
+3. Design Details:
+This was a pilot Phase II interventional study that enrolled 21 adult participants. Patients received pirfenidone orally three times daily for 12 months, with monthly blood and urine tests to monitor treatment effects. citeturn0search0
+
+4. Interventions:
+The intervention involved administering pirfenidone, an anti-fibrotic drug, alongside standard care, which included angiotensin-converting enzyme inhibitors (ACEIs) for blood pressure control and proteinuria reduction. Patients with elevated cholesterol levels also received cholesterol-lowering medications. citeturn0search0
+
+5. Study Arms:
+The study was structured as a single-arm trial, with all participants receiving pirfenidone in addition to standard care. citeturn0search0
+
+6. Eligibility Criteria:
+Inclusion Criteria:
+Adults aged 18 years or older.
+Biopsy-confirmed FSGS.
+Glomerular filtration rate (GFR) between 25 and 80 ml/min.
+Stable dose of ACEIs or angiotensin receptor blockers (ARBs) for at least 6 months.
+No use of glucocorticoids or other immunosuppressive drugs for at least 2 months prior to the study.
+Exclusion Criteria:
+Inability to provide informed consent.
+Known intolerance to pirfenidone.
+Recent history of myocardial infarction or cerebrovascular disease.
+Pregnancy or breastfeeding.
+Concurrent use of certain medications, such as gemfibrozil or cyclosporine.
+citeturn0search0
+
+7. Primary Outcome:
+The primary outcome measured was the decrease in GFR over the 12-month treatment period, serving as a marker for glomerular injury. citeturn0search0
+
+8. Primary Outcome Statistical Analysis:
+The study assessed the change in GFR from baseline to 12 months, although specific statistical methods are not detailed in the available sources.
+
+9. Primary Outcome Statistical Results:
+Specific statistical results for the primary outcome are not detailed in the available sources.
+
+10. Secondary Outcomes Overview:
+Secondary outcomes included the reduction in proteinuria and the proportion of patients with a positive change in GFR after 12 months of treatment. citeturn0search0
+
+11. Statistical Approach:
+The study evaluated changes in proteinuria and GFR over the treatment period, though specific statistical methods are not detailed in the available sources.
+
+12. Key Results:
+Specific statistical results and clinically relevant findings from the secondary outcomes are not detailed in the available sources.
+
+13. Serious Adverse Events (SAEs):
+Information on serious adverse events reported during the study is not detailed in the available sources.
+
+14. Non-Serious Adverse Events:
+Details on non-serious adverse events are not provided in the available sources.
+
+15. Key Observations and Clinical Relevance:
+While specific safety data from this study are not detailed in the available sources, pirfenidone has been used in other conditions, such as lung fibrosis, where it improved breathing and survival. This suggests a potential tolerable safety profile, but further studies are needed to confirm its safety and efficacy in FSGS patients. citeturn0search0
