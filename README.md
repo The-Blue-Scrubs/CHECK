@@ -1,14 +1,31 @@
-# Learning the Phenotype of Medical Hallucinations
+# CHECK: Learning the Phenotype of Medical Hallucinations
 
-<img width="1461" height="979" alt="Figure_1" src="https://github.com/user-attachments/assets/5a79f882-dd1a-4929-9a63-edea9ebc9998" />
+This repository contains the official code and implementation for the paper **"Learning the Phenotype of Medical Hallucinations"**. We introduce CHECK, a hybrid, self-improving framework designed to advance factual reliability in clinical language models. By combining a structured medical knowledge base with a model-agnostic classifier, CHECK can effectively detect and mitigate hallucinations in high-stakes medical applications.
 
-This repository contains the code for the paper "Learning the Phenotype of Medical Hallucinations". The data required to run the analyses and notebooks is stored on Zenodo to ensure long-term availability and reproducibility.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5a79f882-dd1a-4929-9a63-edea9ebc9998" alt="CHECK Framework Diagram" width="800"/>
+  <br>
+  <em><b>Figure 1:</b> The CHECK framework, illustrating the dual-pipeline approach for hallucination detection.</em>
+</p>
+
+---
+
+## Repository Structure
+
+* `/database_dependent_evaluation`: Contains data and notebooks for the first stage of our framework, which establishes baseline hallucination rates and generates training labels.
+* `/database_free_evaluation`: Contains data and notebooks for the second stage, focusing on the model-agnostic classifier and its generalization across diverse medical tasks.
+* `/notebooks`: Contains primary analysis and figure-generation notebooks.
+* `/scripts`: Contains core Python scripts for data processing and model evaluation.
+* `download_data.py`: Script to download the full dataset from Zenodo.
+* `file_manifest.txt`: A list of all data files required for the project.
+
+---
 
 ## Installation
 
 1.  Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/The-Blue-Scrubs/CHECK.git
+    git clone [https://github.com/The-Blue-Scrubs/CHECK.git](https://github.com/The-Blue-Scrubs/CHECK.git)
     cd CHECK
     ```
 
@@ -17,18 +34,40 @@ This repository contains the code for the paper "Learning the Phenotype of Medic
     pip install -r requirements.txt
     ```
 
+---
+
 ## Data Download and Setup
 
-All data files (`.csv` and `.json`) are hosted on Zenodo. To download and place the data in the correct directories, please run the following command from the root of this repository:
+All datasets required to run the analyses (`.csv` and `.json` files) are hosted on Zenodo to ensure long-term availability and reproducibility.
 
-```bash
-python download_data.py
-```
+1.  **Download the data:** Run the following command from the root of this repository. This will download and place all files in their correct directories according to the `file_manifest.txt`.
+    ```bash
+    python download_data.py
+    ```
+    * **Note:** The total download size is approximately **40 GB**. Please ensure you have sufficient disk space.
 
-This script will read the file_manifest.txt, download each file from our Zenodo archive, and place it in the correct location within the project structure. The total download size is approximately 40 GB.
+2.  **Zenodo Archive:** The complete dataset is archived on Zenodo and can be accessed directly at:
+    * **DOI:** [`10.5281/zenodo.17048677`](https://doi.org/10.5281/zenodo.17048677)
 
-Dataset DOI: 10.5281/zenodo.17048677
+---
 
-Usage
-Once the data has been downloaded, you can run the analysis notebooks located in the /notebooks directory or execute the main scripts as described below.
+## Usage
 
+Once the data has been successfully downloaded and placed, you can reproduce the experiments and analyses.
+
+The primary entry points for this project are the Jupyter notebooks located in the `/notebooks` directory. We recommend starting with `01_data_exploration.ipynb` to familiarize yourself with the dataset structure.
+
+---
+
+## Citation
+
+If you use this code or the associated datasets in your research, please cite our paper:
+
+```bibtex
+@article{your_lastname_2025_check,
+  title={Learning the Phenotype of Medical Hallucinations},
+  author={Your Name and Co-authors},
+  journal={Nature Medicine},
+  year={2025},
+  publisher={Nature Publishing Group}
+}
