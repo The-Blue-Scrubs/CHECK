@@ -70,7 +70,7 @@ if __name__ == "__main__":
     # Go to your Zenodo upload, and in the "Files" section, right-click
     # on any file and "Copy Link Address". Paste it here and remove the
     # filename at the end. It should end with a forward slash '/'.
-    ZENODO_DOWNLOAD_URL = "https://zenodo.org/records/YOUR_RECORD_ID/files/"
+    ZENODO_DOWNLOAD_URL = "https://zenodo.org/records/17048677/files/"
 
     if "YOUR_RECORD_ID" in ZENODO_DOWNLOAD_URL:
         print("="*60)
