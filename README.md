@@ -1,4 +1,4 @@
-# CHECK: Learning the Phenotype of Medical Hallucinations
+# Learning the Phenotype of Medical Hallucinations
 
 <img width="1461" height="979" alt="Figure_1" src="https://github.com/user-attachments/assets/5a79f882-dd1a-4929-9a63-edea9ebc9998" />
 
