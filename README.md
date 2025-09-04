@@ -1,12 +1,23 @@
 # CHECK: Learning the Phenotype of Medical Hallucinations
 
-This repository contains the official code and implementation for the paper **"Learning the Phenotype of Medical Hallucinations"**. We introduce CHECK, a hybrid, self-improving framework designed to advance factual reliability in clinical language models. By combining a structured medical knowledge base with a model-agnostic classifier, CHECK can effectively detect and mitigate hallucinations in high-stakes medical applications.
+This repository contains the official code and implementation for the paper **"Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK"**. We introduce CHECK, a hybrid, self-improving framework designed to advance factual reliability in clinical language models. By combining a structured medical knowledge base with a model-agnostic classifier, CHECK can effectively detect and mitigate hallucinations in high-stakes medical applications.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5a79f882-dd1a-4929-9a63-edea9ebc9998" alt="CHECK Framework Diagram" width="800"/>
+  <img src="https://github.com/user-attachments/assets/5a7f9882-dd1a-4929-9a63-edea9ebc9998" alt="CHECK Framework Diagram" width="800"/>
   <br>
   <em><b>Figure 1:</b> The CHECK framework, illustrating the dual-pipeline approach for hallucination detection.</em>
 </p>
+
+---
+## Paper
+
+Our paper is available on arXiv:
+
+**Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK**
+<br>
+*Carlos Garcia-Fernandez, Luis Felipe, Monique Shotande, Muntasir Zitu, Aakash Tripathi, Ghulam Rasool, Issam El Naqa, Vivek Rudrapatna, Gilmer Valdes*
+<br>
+**arXiv:** [`2506.11129`](https://arxiv.org/abs/2506.11129) | **DOI:** [`10.48550/arXiv.2506.11129`](https://doi.org/10.48550/arXiv.2506.11129)
 
 ---
 
@@ -64,10 +75,12 @@ The primary entry points for this project are the Jupyter notebooks located in t
 If you use this code or the associated datasets in your research, please cite our paper:
 
 ```bibtex
-@article{your_lastname_2025_check,
-  title={Learning the Phenotype of Medical Hallucinations},
-  author={Your Name and Co-authors},
-  journal={Nature Medicine},
-  year={2025},
-  publisher={Nature Publishing Group}
+@misc{garciafernandez2025trustworthyaimedicinecontinuous,
+      title={Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK}, 
+      author={Carlos Garcia-Fernandez and Luis Felipe and Monique Shotande and Muntasir Zitu and Elier Delgado and Ghulam Rasool and Issam El Naqa and Vivek Rudrapatna and Gilmer Valdes},
+      year={2025},
+      eprint={2506.11129},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={[https://arxiv.org/abs/2506.11129](https://arxiv.org/abs/2506.11129)}, 
 }
