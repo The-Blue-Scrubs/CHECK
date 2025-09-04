@@ -51,7 +51,6 @@ All datasets required to run the analyses (`.csv` and `.json` files) are hosted 
 
 ## Usage
 Once the data has been successfully downloaded and placed, you can reproduce the experiments and analyses.
-The primary entry points for this project are the Jupyter notebooks located in the `/notebooks` directory. We recommend starting with `01_data_exploration.ipynb` to familiarize yourself with the dataset structure.
 
 ---
 
