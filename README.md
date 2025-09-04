@@ -1,23 +1,12 @@
 # CHECK: Learning the Phenotype of Medical Hallucinations
 
-This repository contains the official code and implementation for the paper **"Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK"**. We introduce CHECK, a hybrid, self-improving framework designed to advance factual reliability in clinical language models. By combining a structured medical knowledge base with a model-agnostic classifier, CHECK can effectively detect and mitigate hallucinations in high-stakes medical applications.
+This repository contains the official code and implementation for the paper **"Learning the Phenotype of Medical Hallucinations"**. We introduce CHECK, a hybrid, self-improving framework designed to advance factual reliability in clinical language models. By combining a structured medical knowledge base with a model-agnostic classifier, CHECK can effectively detect and mitigate hallucinations in high-stakes medical applications.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5a7f9882-dd1a-4929-9a63-edea9ebc9998" alt="CHECK Framework Diagram" width="800"/>
+  <img src="https://github.com/user-attachments/assets/5a79f882-dd1a-4929-9a63-edea9ebc9998" alt="CHECK Framework Diagram" width="800"/>
   <br>
   <em><b>Figure 1:</b> The CHECK framework, illustrating the dual-pipeline approach for hallucination detection.</em>
 </p>
-
----
-## Paper
-
-Our paper is available on arXiv:
-
-**Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK**
-<br>
-*Carlos Garcia-Fernandez, Luis Felipe, Monique Shotande, Muntasir Zitu, Aakash Tripathi, Ghulam Rasool, Issam El Naqa, Vivek Rudrapatna, Gilmer Valdes*
-<br>
-**arXiv:** [`2506.11129`](https://arxiv.org/abs/2506.11129) | **DOI:** [`10.48550/arXiv.2506.11129`](https://doi.org/10.48550/arXiv.2506.11129)
 
 ---
 
@@ -31,7 +20,6 @@ Our paper is available on arXiv:
 * `file_manifest.txt`: A list of all data files required for the project.
 
 ---
-
 ## Installation
 
 1.  Clone this repository to your local machine:
@@ -46,7 +34,6 @@ Our paper is available on arXiv:
     ```
 
 ---
-
 ## Data Download and Setup
 
 All datasets required to run the analyses (`.csv` and `.json` files) are hosted on Zenodo to ensure long-term availability and reproducibility.
@@ -63,9 +50,7 @@ All datasets required to run the analyses (`.csv` and `.json` files) are hosted 
 ---
 
 ## Usage
-
 Once the data has been successfully downloaded and placed, you can reproduce the experiments and analyses.
-
 The primary entry points for this project are the Jupyter notebooks located in the `/notebooks` directory. We recommend starting with `01_data_exploration.ipynb` to familiarize yourself with the dataset structure.
 
 ---
@@ -81,6 +66,5 @@ If you use this code or the associated datasets in your research, please cite ou
       year={2025},
       eprint={2506.11129},
       archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={[https://arxiv.org/abs/2506.11129](https://arxiv.org/abs/2506.11129)}, 
+      primaryClass={cs.CL}
 }
