@@ -8,17 +8,17 @@ The experiment follows a three-step process, from running the summarization mode
 
 ### 1. Run CliSum Model (`1-Run_CliSum/`)
 
-This step involves running the clinical summarization model (CliSum) on the dataset. The experiments are conducted under two conditions:
+This step involves running the ensemble of model on the dataset. The experiments are conducted under two conditions:
 - `Fact/`: Generation of factual summaries.
-- `Hallucination/`: Generation of summaries with induced hallucinations to test the model's detection capabilities.
+- `Hallucination/`: Generation of summaries with induced hallucinations.
 
 The input data for this step is located in the `Data/` directory. You will need to download it from Zenodo as described in the main project `README.md`.
 
 ### 2. Process Ensemble Outputs (`2-Proccess_ensemble/`)
 
-After generating the summaries, this step processes the outputs from the model ensemble. This involves several stages:
+After generating the summaries, this step processes the outputs (probability distributions) extracted from the model ensemble. This involves several stages:
 - `1-features_creation.ipynb`: Creates features from the generated summaries. The output features are stored in the `FEATURES/` directory.
-- `2-KL_div.ipynb`: Calculates the KL divergence, which is a measure used in the analysis.
+- `2-KL_div.ipynb`: Calculates the KL divergence across the ensemble of models.
 - `3-Reduce_and_concatenate_Paragraph.ipynb`: Processes and combines the results for final analysis.
 
 ### 3. Analysis (`3-Analysis/`)
