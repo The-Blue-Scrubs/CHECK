@@ -12,8 +12,8 @@ This repository contains the official code and implementation for the paper **"L
 
 ## Repository Structure
 
-* `/database_dependent_evaluation`: Contains data and notebooks for the first stage of our framework, which establishes baseline hallucination rates and generates training labels.
-* `/database_free_evaluation`: Contains data and notebooks for the second stage, focusing on the model-agnostic classifier and its generalization across diverse medical tasks.
+* `/database_dependent_evaluation`: Contains the data and notebooks for our database-dependent pipeline (fig b). This includes experiments that (1) establish baseline hallucination rates across a suite of models and (2) measure the impact of context quality on a fixed model. The resulting labeled data is used to train our database-free classifier.
+* `/database_free_evaluation`: Contains the experiments that validate the performance and applications of our database-free classifier (fig c) across a diverse set of medical tasks.
 * `/notebooks`: Contains primary analysis and figure-generation notebooks.
 * `/scripts`: Contains core Python scripts for data processing and model evaluation.
 * `download_data.py`: Script to download the full dataset from Zenodo.
